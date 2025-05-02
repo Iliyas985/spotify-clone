@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-web player: Music for everyone</title>
+    <link rel="icon" href="./Assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="spotify.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./Assets/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <img src="./Assets/card1img.jpeg" alt="card1">
+            <img src="./Assets/card2img.jpeg" alt="card2">
+            <img src="./Assets/card3img.jpeg" alt="card3">
+            <img src="./Assets/card4img.jpeg" alt="card4">
+            <img src="./Assets/card5img.jpeg" alt="card5">
+            <img src="./Assets/card6img.jpeg" alt="card6">
+        </div>
+
+        <div class="music-player">
+            <div class="player-controls">
+                <div class="album-info">
+                    <img class="album-art" src="./Assets/album_picture.jpeg" alt="album">
+                    <div class="song-info">
+                        <div class="song-title">Song Title</div>
+                        <div class="song-artist">Artist Name</div>
+                    </div>
+                </div>
+
+                <div class="controls-center">
+                    <div>
+                        <img src="./Assets/player_icon1.png" alt="shuffle">
+                        <img src="./Assets/backward_icon.png" alt="prev">
+                        <img class="play-button" src="./Assets/play_musicbar.png" alt="play">
+                        <img src="./Assets/forward_icon.png" alt="next">
+                        <img src="./Assets/player_icon5.png" alt="repeat">
+                    </div>
+                    <div class="progress-bar">
+                        <span>0:00</span>
+                        <input type="range" min="0" max="100" value="0">
+                        <span>3:45</span>
+                    </div>
+                </div>
+
+                <div class="volume-controls">
+                    <img src="./Assets/controls_icon1.png" alt="ViewBox">
+                    <img src="./Assets/controls_icon2.png" alt="mic">
+                    <img src="./Assets/controls_icon3.png" alt="queue">
+                    <img src="./Assets/controls_icon4.png" alt="Device-Connection">
+                    <img src="./Assets/controls_icon5.png" alt="Mute">
+                    <input type="range" min="0" max="100" value="50">
+                    <img src="./Assets/album_icon2.png" alt="expand">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
